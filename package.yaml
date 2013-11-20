@@ -1,0 +1,25 @@
+# use "yapm install ." if you're installing this from git repository
+
+name: caching-agent
+version: 0.1.0-preview
+description: http.Agent with built-in cache
+
+author:
+  name: Alex Kocharin
+  email: alex@kocharin.ru
+
+repository:
+  type: git
+  url: git://github.com/rlidwka/caching-agent
+
+dependencies:
+  # 2.27.0 used in development,
+  # ask if you want to use earlier versions here
+  request: '>= 2.27.0'
+
+keywords:
+  - cache
+  - http
+
+license: WTFPL
+
